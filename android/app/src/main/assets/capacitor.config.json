@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "list-rmapi",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

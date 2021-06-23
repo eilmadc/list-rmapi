@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>{{locationsArray.name}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button >
+        <ion-icon name="arrow-round-back"></ion-icon>
+      </ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label color="medium">Type:</ion-label>
+    <ion-label>{{locationsArray.type}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label color="medium">Dimension:</ion-label>
+    <ion-label>{{locationsArray.dimension}}</ion-label>
+  </ion-item>
+</ion-content>
